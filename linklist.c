@@ -49,7 +49,7 @@ int main (){
     printf("Enter the number of nodes: ");
     scanf("%d", &n);
 
-    struct Node* head = createLinkedList(n);
+    struct Node* head = createlinklist(n);
         printf("The created linked list is: ");
              display(head);
 
